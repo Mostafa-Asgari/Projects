@@ -1,0 +1,75 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: morvarid;
+    src: url(../fonts/MorvaridYasDL.ttf);
+}
+
+body {
+    font-family: morvarid;
+}
+
+.title{
+    direction: rtl;
+    float: right;
+    font-size: 50px;
+    margin-right: 25px;
+}
+.main {
+    height: 100vh;
+    background: linear-gradient(rgba(255, 192, 192, 0.3), rgba(0, 0, 0, 0.8)), url('../images/2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    width: 556px;
+    height: 556px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border: 2px solid gold;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
+}
+
+button {
+    padding: 3px;
+    width: 9rem;
+    height: 3rem;
+    font-size: 25px;
+    border-radius: .5rem;
+    cursor: pointer;
+    background: gold;
+    margin-left: 10px;
+    font-family: morvarid !important;
+}
+
+.col {
+    width: 184px;
+    height: 184px;
+    border: 2px dotted gold;
+    float: right;
+    text-align: center;
+    line-height: 166px;
+    cursor: pointer;
+}
+
+.col:hover {
+    background-color: #44ffb1;
+}
+
+.mm {
+    font-size: 120px;
+    /* font-weight: bold; */
+}
+
+.xo {
+    display: none;
+    margin-left: 10px;
+}
