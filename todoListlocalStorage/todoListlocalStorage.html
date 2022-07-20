@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List</title>
+    <link rel="stylesheet" href="css/bootstrap.rtl.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container mt-3">
+        <div class="row">
+            <h2 class="text-center">Todo List App</h2>
+            <div class="form-group">
+                <label for="input" class="form-label">Add Item :</label>
+                <input type="text" class="form-control mb-2" id="input">
+                <button class="btn btn-primary" id="addBtn">Add to List</button>
+                <button class="btn btn-warning" id="clearBtn">Clear Todo List</button>
+            </div>
+            <h3 class="mt-4">Todo List :</h3>
+            <ul class="me-auto todolist" id="ulTodo">
+            </ul>
+        </div>
+    </div>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/app.js"></script>
+</body>
+
+</html>
