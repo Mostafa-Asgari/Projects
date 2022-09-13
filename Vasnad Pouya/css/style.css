@@ -238,7 +238,7 @@ footer p.footer-text{
   background-color: rgba(241, 90, 47);
   font-size: 0.8rem;
   position: relative;
-  top: -3rem;
+  top: 0;
 }
 footer .box-logo-footer{
   position: relative;
@@ -250,6 +250,7 @@ footer .row{padding-top: 1.5rem;}
 
 .address ul li, ul.list li{
   font-size: 0.85rem;
+  list-style: inside;
 }
 .address ul li::marker{
   color: rgba(241, 90, 47);
@@ -370,4 +371,14 @@ footer .row{padding-top: 1.5rem;}
   .bars{
     display: block;
   }
+}
+
+@media screen and (max-width: 567px){
+  .about h3{
+    font-size: 23px;
+  }
+  .about p{
+    font-size: 14px;
+  }
+  /* .bx{overflow-y: hidden;} */
 }
