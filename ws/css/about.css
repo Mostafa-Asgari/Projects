@@ -1,0 +1,8 @@
+@import "./menu.css";
+@import "./management.css";
+@import "footer.css";
+
+
+.header{
+    background: url('../images/4.jpg') !important;
+}

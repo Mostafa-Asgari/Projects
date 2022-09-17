@@ -1,0 +1,92 @@
+
+footer{
+    height: 40vh;
+    position: relative;
+  }
+  footer .row{background: rgb(20, 21, 67);}
+  footer .vas-text, footer h5.quick{
+    overflow-y: hidden;
+  }
+  footer .footer-description{
+    background: rgba(241, 90, 47);
+    position: relative;
+    
+  }
+  footer .footer-description p{
+    font-size: 11px;
+    line-height: 2;
+    overflow-y: hidden;
+  }
+  footer .address li{
+    font-size: 14px;
+  }
+  footer .address li, footer .access li{
+    list-style: inside;
+    line-height: 2;
+  }
+  footer .address li::marker{color: rgba(241, 90, 47);}
+  footer .access li::marker{color: rgb(20, 21, 67);}
+  
+  footer .access-div a{color: white;}
+  footer .access-div a:hover{text-decoration: none;}
+  
+  footer .access-div{
+    background: rgba(241, 90, 47);
+    border-radius: 0 4px 0 0;
+    -webkit-border-radius: 0 4px 0 0;
+    -moz-border-radius: 0 4px 0 0;
+    -ms-border-radius: 0 4px 0 0;
+    -o-border-radius: 0 4px 0 0;
+  }
+
+  @media screen and (min-width: 1200px){
+    footer .footer-description p{
+      font-size: 14px;
+      line-height: 1.8;
+    }
+    footer .address li{
+      font-size: 16px;
+    }
+  }
+
+  @media screen and (max-width: 992px){
+   footer{
+    height: 70vh;
+    overflow: hidden;
+   }
+   footer .row{
+    padding-top: 1rem 0;
+    height: 100%;
+   }
+    footer .footer-description p{
+      padding: 0 2rem;
+    }
+    .img-text a{
+      font-size: 14px;
+    }
+  }
+
+  @media screen and (max-width: 768px){
+     footer .access-div{
+      border-radius: 4px 0 0 0;
+      -webkit-border-radius: 4px 0 0 0;
+      -moz-border-radius: 4px 0 0 0;
+      -ms-border-radius: 4px 0 0 0;
+      -o-border-radius: 4px 0 0 0;
+    }
+  }
+
+  @media screen and (min-width: 768px) and (max-width: 992px){
+      footer .address ul li{
+      font-size: 13px;
+      margin: 10px 0;
+      }
+      footer img{
+      width: 90% !important;
+      }
+  }
+  
+  @media screen and (min-width: 576px) and (max-width: 625px) {
+    footer .address ul li{font-size: 11px;line-height: 2.3;}
+    footer .access h5, .access ul a{font-size: 14px;}
+  }

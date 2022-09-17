@@ -1,0 +1,150 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: IRAN;
+    direction: rtl !important;
+    overflow-x: hidden;
+  }
+  
+  @font-face {
+    font-family: IRAN;
+    src: url("../fonts/ttf/IRANSansWeb_Medium.ttf");
+  }
+  
+  .header .header-top{
+    /* padding: 2rem 3rem; */
+    display: flex;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+
+.header .header-top ul.menu{
+    background: rgba(255, 255, 255, 0.7);
+    border-radius: 0.5rem;
+    -webkit-border-radius: 0.5rem;
+    -moz-border-radius: 0.5rem;
+    -ms-border-radius: 0.5rem;
+    -o-border-radius: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-self: center;
+  }
+    
+  .header-top li{
+    display: flex;
+    list-style: none;
+    width: 9rem;
+    height: 2rem;
+    line-height: 2rem;
+    text-align: center;
+  }
+  .header-top li:last-child{
+    width: 8rem !important;
+  }
+  .header-top li a{
+    text-decoration: none;
+    display: block;
+    color: rgb(18, 20, 68);
+    font-size: 1.2rem;
+    transition: color 0.3s;
+    -webkit-transition: color 0.3s;
+    -moz-transition: color 0.3s;
+    -ms-transition: color 0.3s;
+    -o-transition: color 0.3s;
+  }
+  .header-top li a:hover{
+    color: rgb(240, 90, 48);
+  }
+  .header-top li a.active{color: rgb(240, 90, 48);}
+  
+  /* ------------------- menu left -------------------- */
+  .logo-box{
+    padding: 2rem 1rem;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+  }
+  .logo-box img{width: 6rem;}
+
+  .box-social{
+    position: fixed;
+    bottom: 1rem;
+    left: 2rem;
+    z-index: 100;
+    background: rgba(18, 20, 68, 0.3);
+    border: 1px solid #35305e;
+    padding: 1rem;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+  }
+  
+  .box-social img{
+    width: 1.7rem;
+    transition: color 0.3s;
+    -webkit-transition: color 0.3s;
+    -moz-transition: color 0.3s;
+    -ms-transition: color 0.3s;
+    -o-transition: color 0.3s;
+  }
+  .box-social img:hover{
+    color: rgb(240, 90, 48);
+  }
+
+  .box-iconTop{
+    position: fixed;
+    bottom: 1rem;
+    right: 2rem;
+    z-index: 100;
+    background: rgba(79, 74, 101, 0.7);
+    padding: 0.7rem;
+    border-radius: 50%;
+    border: 8px solid rgba(151, 151, 151, 0.6);
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    cursor: pointer;
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+    animation: fade 0.6s;
+    -webkit-animation: fade 0.6s;
+  }
+  
+  @keyframes fade {
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+  }
+  .box-iconTop img{width: 1.5rem;}
+  .box-social{
+    position: fixed;
+    bottom: 1rem;
+    left: 2rem;
+    z-index: 100;
+    background: rgba(18, 20, 68, 0.3);
+    border: 1px solid #35305e;
+    padding: 1rem;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+  }

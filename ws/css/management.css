@@ -1,0 +1,48 @@
+@import "menu.css";
+@import "footer.css";
+
+.main{
+    height: 100%;
+    position: relative;
+}
+.header{
+    width: 100vw;
+    height: 23vh;
+    /* position: relative; */
+    background: url('../images/2.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+  }
+
+  section, 
+  section h3,
+  .container h3,
+  .container p,
+  .container h4,
+  .about-text{
+    overflow-y: hidden;
+  }
+  section{
+    height: 17vh;
+    position: relative;
+  }
+
+  section img{
+    width: 100%;
+    height: 100%;
+  }
+
+  section .blue, section h3{
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+  }
+
+  section h3{
+    position: absolute;
+    margin-top: 2.5rem;
+    z-index: 20;
+  }
+  /* ----------- */
